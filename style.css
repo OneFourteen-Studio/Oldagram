@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Source Sans 3', sans-serif
+}
+
+body {
+    max-width: 375px;
+    height: 100vh;
+    border: 5px solid black
+}
+
+header {
+    border-bottom: 1px solid #C6C6C6;
+    height: 7%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.space {
+    padding: 0 10px
+}
+
+.bold {
+    font-weight: 700
+}
+
+.avatar {
+    height: 70%;
+}
+
+.pfp-name-location {
+    display: flex;
+    gap: 10px
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    align-self: center
+}
+
+.user-name-location {
+    width: 50%;
+    padding:5px 0;
+    text-align: left;
+}
+
+.account-name {
+    font-size: 1.6rem;
+    margin: 0;
+
+}
+
+.location {
+    margin: 0;
+    font-size: 1.2rem
+}
+
+.posted-picture {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.user-clicks {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    height: 12%
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.btns {
+    height: 26px;
+    width: 28px;
+}
+
+.likes {
+    font-size: 1.6rem;
+    
+}
+
+.comment {
+    font-size: 1.2rem
+}
+
+.username {
+    padding: 0 5px 0 0 
+}
+
+
+
+
+
+
+
