@@ -9,9 +9,8 @@ html {
 }
 
 body {
-    max-width: 375px;
-    height: 100vh;
-    border: 5px solid black
+    max-width: 350px;
+    height: 75vh;
 }
 
 header {
